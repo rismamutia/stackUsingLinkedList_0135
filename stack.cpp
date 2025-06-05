@@ -37,4 +37,10 @@ public:
         cout << "Push Value: " << value << endl;
         return value;
     }
+
+    //is empty operation: check if the stack is empty
+    bool isEmpty()
+    {
+        
+    }
 }
