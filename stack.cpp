@@ -47,6 +47,7 @@ public:
     //Pop operation: Remove the topmost element from the stack
     void pop()
     {
+        Node* temp = top; // create a temporary pointer to the current top node
         if (isEmpty())
         {
             cout << "Stack is empty." << endl;
@@ -89,7 +90,7 @@ int main()
         cout << "2. Pop\n";
         cout << "3. Peek\n";
         cout << "4. Exit\n";
-        cout << "Enter your choise: ";
+        cout << "Enter your choice: ";
         cin >> choice;
 
         switch(choice)
@@ -106,5 +107,15 @@ int main()
             stack.peek();
             break;
 
-        
+        case 4:
+            cout << "Exiting Program." << endl;
+            break;
+        default:
+            cout << "Invalid choice. Try again." << endl;
+            break;
+        }
+
+        cout << endl;
+    }  
+     return 0;
 }
