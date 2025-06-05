@@ -90,7 +90,7 @@ int main()
         cout << "3. Peek\n";
         cout << "4. Exit\n";
         cout << "Enter your choise: ";
-        cin >> choise;
+        cin >> choice;
 
         switch(choise)
         {
@@ -98,7 +98,9 @@ int main()
             cout << "Enter the value to push: ";
             cin >> value;
             stack.push(value); //push the enterred value onto the stack
-
+            break;
+        case 2:
+            stack.pop(); //pop the topmost element from the stack
         }
     }  
      
