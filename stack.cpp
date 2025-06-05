@@ -25,4 +25,8 @@ public:
     {
         top = NULL; //Initalize the stack with a null top pointer
     }
+
+    //push operation: insert an element into the top of the stack
+
+    int push(int value)
 }
