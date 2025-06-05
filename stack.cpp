@@ -99,23 +99,4 @@ int main()
             cin >> value;
             stack.push(value); //push the enterred value onto the stack
             break;
-        case 2:
-            stack.pop(); //pop the topmost element from the stack
-            break;
-        case 3:
-            stack.peek();
-            break;
-
-        case 4:
-            cout << "Exiting Program." << endl;
-            break;
-        default:
-            cout << "Invalid choice. Try again." << endl;
-            break;
-        }
-
-        cout << endl;
-    }  
-     
-
-}
+        
